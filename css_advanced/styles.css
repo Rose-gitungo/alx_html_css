@@ -24,7 +24,7 @@ header{
     height: 990px;
 }
 .header1{
-    text-align: center;
+  text-align: center;
     height: 100%;
 }
 .logo{
@@ -55,6 +55,7 @@ nav li{
     padding: 10px 24px;
     width: 250px;
     align-self: center;
+    margin-bottom: 140px;
   }
   .brand{
     color: white;
@@ -66,27 +67,20 @@ nav li{
 
   .brand1{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 20px;
   }
-  .h1{
-    font-family:source-sans-pro;
+  h1{
+    margin-top: 30%;
+    font-size: 60px;
   }
-  .learn-from-pros{
-    display: flex;
-    flex-direction: column;
-  }
-.learn-from-pros1{
-display: flex;
-justify-content: space-around;
-flex-direction: row;
 
-}
-
-.bruce{
-    border-radius: 10px;
-    overflow: hidden;
+.learnfrompros1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .quote1{
     background-color: #C271FF;
@@ -94,28 +88,103 @@ flex-direction: row;
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: row;
 }
 .quote2{
     height: 392px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column   
 }
 .parent {
     position: relative;
     top: 0;
     left: 0;
   }
+  .videos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .videos1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+
+
+  }
   .image11 {
     position: relative;
     top: 0;
     left: 0;
-    border: 1px solid #000000;
   }
   
   .image12{
     position: absolute;
     top: 30px;
     left: 30px;
-    border: 1px solid #000000;
   }
+
+.image2{
+width: 45%;
+display: flex;
+flex-direction: row;
+}
+.stars{
+  width: 55%;
+  height: 20%;
+  display: flex;
+flex-direction: row;
+}
+.membership{
+  background-color: #00003b;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.membership1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+h3{
+  text-align: center;
+}
+.flex-conat{
+  display: flex;
+}
+.faq{
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.faq1{
+ flex: 1;
+}
+.faq2{
+  flex: 1;
+ }
+footer{
+  background-color: #00003b;
+  display: flex;
+  height: 90px;
+ 
+  
+}
+.footer1{
+display: flex;
+justify-content: end;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+}
